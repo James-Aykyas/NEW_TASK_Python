@@ -1,0 +1,95 @@
+{
+  "task_management_rules": [
+    {
+      "id": "rule_001",
+      "priority": 10,
+      "category": "meetings",
+      "condition": "meeting scheduled within 1 day or urgent",
+      "action": "set high priority and immediate reminders",
+      "rule": "If meeting is scheduled within 24 hours or marked urgent, automatically set as high priority with frequent reminders"
+    },
+    {
+      "id": "rule_002", 
+      "priority": 9,
+      "category": "deadlines",
+      "condition": "project deadline within 24 hours",
+      "action": "set highest priority and focus completely",
+      "rule": "When project deadline is within 24 hours, automatically set as highest priority and cancel non-essential activities"
+    },
+    {
+      "id": "rule_003",
+      "priority": 8,
+      "category": "health",
+      "condition": "feeling unwell",
+      "action": "reschedule non-essential activities",
+      "rule": "If feeling unwell or sick, reschedule all non-essential meetings and prioritize rest"
+    },
+    {
+      "id": "rule_004",
+      "priority": 7,
+      "category": "client_work",
+      "condition": "client emergency",
+      "action": "drop everything for client",
+      "rule": "Always prioritize client emergencies over internal work, personal tasks, and meetings"
+    },
+    {
+      "id": "rule_005",
+      "priority": 6,
+      "category": "scheduling",
+      "condition": "double booked",
+      "action": "keep higher priority meeting",
+      "rule": "When double booked, keep the meeting with higher business value and reschedule the other"
+    },
+    {
+      "id": "rule_006",
+      "priority": 5,
+      "category": "work_life_balance",
+      "condition": "after 6pm",
+      "action": "no work calls unless urgent",
+      "rule": "Never take work calls after 6pm unless marked as urgent or client emergency"
+    },
+    {
+      "id": "rule_007",
+      "priority": 4,
+      "category": "health",
+      "condition": "no gym for 3 days",
+      "action": "prioritize gym session",
+      "rule": "If haven't been to gym for 3+ days, prioritize gym session over non-urgent meetings"
+    },
+    {
+      "id": "rule_008",
+      "priority": 3,
+      "category": "productivity",
+      "condition": "morning hours",
+      "action": "focus on deep work",
+      "rule": "Use morning hours (8am-11am) for deep work and avoid scheduling meetings during this time"
+    },
+    {
+      "id": "rule_009",
+      "priority": 2,
+      "category": "communication",
+      "condition": "email response needed",
+      "action": "respond within 4 hours",
+      "rule": "Always respond to important emails within 4 hours during business days"
+    },
+    {
+      "id": "rule_010",
+      "priority": 1,
+      "category": "personal",
+      "condition": "family time",
+      "action": "protect family time",
+      "rule": "Protect family dinner time (6pm-8pm) and weekend family activities from work interruptions"
+    }
+  ],
+  "priority_levels": {
+    "high": "8-10 OR due within 24 hours",
+    "medium": "4-7", 
+    "low": "1-3"
+  },
+  "reminder_settings": {
+    "urgent_tasks": "15 minutes to 2 hours before (based on time remaining)",
+    "important_tasks": "1 to 4 hours before",
+    "regular_tasks": "4 hours to 1 day before",
+    "within_24_hours": "Automatically upgraded to high priority"
+  }
+}

@@ -1,0 +1,11 @@
+Rule ID,Priority,Category,Condition,Action,Description,Reminder Time
+RULE_001,10,Emergency,Client system down,Drop everything and fix,Client emergencies always take highest priority,Immediate
+RULE_002,9,Deadline,Project due today,Cancel non-essential meetings,Focus completely on deadline work,2 hours before
+RULE_003,8,Health,Feeling sick,Work from home or take sick leave,Health always comes first,Morning of
+RULE_004,7,Meeting,CEO meeting scheduled,Prepare thoroughly and attend,CEO meetings cannot be missed,1 day before
+RULE_005,6,Client,Client call scheduled,Prioritize over internal meetings,Client satisfaction is key,30 minutes before
+RULE_006,5,Personal,Doctor appointment,Block calendar and attend,Health appointments are non-negotiable,1 day before
+RULE_007,4,Work,Team standup,Attend unless urgent work,Team communication is important,15 minutes before
+RULE_008,3,Exercise,Gym session planned,Go unless urgent work arises,Maintain physical health,1 hour before
+RULE_009,2,Social,Lunch with colleague,Attend if no conflicts,Networking is valuable,30 minutes before
+RULE_010,1,Personal,Coffee break,Take if time permits,Rest is important for productivity,No reminder needed

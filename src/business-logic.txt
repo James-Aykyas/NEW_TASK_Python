@@ -1,0 +1,111 @@
+TASK MANAGEMENT BUSINESS RULES AND LOGIC
+
+=== AUTOMATIC PRIORITY ESCALATION ===
+
+RULE: Any task due within 24 hours automatically becomes HIGH PRIORITY
+ACTION: Upgrade priority level and increase reminder frequency
+LOGIC: Time urgency overrides original priority classification
+REMINDER: Enhanced reminder schedule based on time remaining
+
+RULE: Tasks with specific times (e.g., "at 10am", "by 2pm") get precise scheduling
+ACTION: Calculate exact due time and set appropriate reminders
+LOGIC: Specific times indicate firm deadlines requiring precise timing
+
+=== HIGH PRIORITY RULES (8-10) ===
+
+RULE: If client system is down or client reports critical issue
+ACTION: Drop all current activities immediately
+PRIORITY: 10
+REMINDER: Send immediate alert
+LOGIC: Client emergencies override everything else
+
+RULE: When project deadline is today and work is not complete  
+ACTION: Cancel all meetings except client meetings, work until complete
+PRIORITY: 9
+REMINDER: Alert 2 hours before deadline
+LOGIC: Missing deadlines damages reputation and client relationships
+
+RULE: If feeling unwell or showing symptoms of illness
+ACTION: Work from home or take sick leave, reschedule non-essential activities
+PRIORITY: 8
+REMINDER: Check health status each morning
+LOGIC: Health is prerequisite for all other work
+
+=== MEDIUM PRIORITY RULES (4-7) ===
+
+RULE: When CEO or C-level executive schedules meeting
+ACTION: Clear calendar conflicts, prepare thoroughly, attend
+PRIORITY: 7
+REMINDER: 1 day advance preparation reminder
+LOGIC: Executive meetings are career-critical
+
+RULE: If client meeting is scheduled
+ACTION: Prioritize over internal meetings, prepare agenda
+PRIORITY: 6
+REMINDER: 30 minutes before meeting
+LOGIC: Client relationships drive business success
+
+RULE: When double-booked for meetings
+ACTION: Attend higher business value meeting, delegate or reschedule other
+PRIORITY: 5
+REMINDER: Resolve conflicts immediately when detected
+LOGIC: Time is finite resource, maximize business impact
+
+RULE: If no exercise for 3+ consecutive days
+ACTION: Schedule gym session, prioritize over non-urgent meetings
+PRIORITY: 4
+REMINDER: Daily fitness check
+LOGIC: Physical health enables sustained performance
+
+=== LOW PRIORITY RULES (1-3) ===
+
+RULE: During morning deep work hours (8am-11am)
+ACTION: Avoid scheduling meetings, focus on complex tasks
+PRIORITY: 3
+REMINDER: Block calendar for deep work
+LOGIC: Peak cognitive hours should be protected
+
+RULE: When important email requires response
+ACTION: Respond within 4 business hours
+PRIORITY: 2
+REMINDER: Check email every 2 hours
+LOGIC: Timely communication maintains relationships
+
+RULE: During family time (6pm-8pm weekdays, weekends)
+ACTION: Avoid work calls unless true emergency
+PRIORITY: 1
+REMINDER: Set phone to do not disturb
+LOGIC: Work-life balance prevents burnout
+
+=== CONFLICT RESOLUTION LOGIC ===
+
+When multiple rules apply:
+1. Higher priority number always wins
+2. If same priority, choose rule that affects more people
+3. If still tied, choose rule with nearest deadline
+4. Document decision rationale for future reference
+
+=== REMINDER SYSTEM LOGIC ===
+
+High Priority (8-10): Immediate to 2 hours advance notice
+Medium Priority (4-7): 30 minutes to 1 day advance notice  
+Low Priority (1-3): 1 day advance notice or no reminder
+
+Emergency situations override all reminder timing and send immediate alerts.
+
+=== TASK CATEGORIZATION ===
+
+URGENT + IMPORTANT: Priority 8-10, immediate action required
+IMPORTANT + NOT URGENT: Priority 4-7, schedule and plan
+URGENT + NOT IMPORTANT: Priority 2-4, delegate if possible
+NOT URGENT + NOT IMPORTANT: Priority 1-2, do if time permits
+
+=== BUSINESS LOGIC PRINCIPLES ===
+
+1. Client needs always supersede internal needs
+2. Health enables all other performance
+3. Deadlines are commitments that must be honored
+4. Relationships require consistent nurturing
+5. Deep work requires protected time blocks
+6. Family time is sacred and non-negotiable
+7. Physical fitness is investment in long-term capability
